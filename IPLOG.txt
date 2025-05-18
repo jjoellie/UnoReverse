@@ -1,0 +1,26 @@
+------------------------
+Connection from ::1
+HTTP/1.1 200 OK
+Date: Sun, 18 May 2025 10:32:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 57
+Access-Control-Allow-Origin: *
+X-Ttl: 60
+X-Rl: 44
+Connection: keep-alive
+
+{"status":"fail","message":"reserved range","query":"::"}Total bytes delivered: 69125
+------------------------
+------------------------
+Connection from ::ffff:192.168.0.186
+HTTP/1.1 200 OK
+Date: Sun, 18 May 2025 18:24:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 67
+Access-Control-Allow-Origin: *
+X-Ttl: 60
+X-Rl: 44
+Connection: keep-alive
+
+{"status":"fail","message":"private range","query":"192.168.0.186"}Total bytes delivered: 46110
+------------------------
